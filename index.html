@@ -234,7 +234,7 @@ h1{translate:calc(var(--px,0)*5px) calc(var(--py,0)*5px)}
 window.Intro=(function(){
   var el=document.getElementById('intro'),log=el.querySelector('.ilog'),pc=el.querySelector('.ipct'),bar=el.querySelector('.ibar i'),
       nm=el.querySelector('.iname'),ecg=el.querySelector('.ecg'),T=[],done=null,fin=true;
-  var L=['> khoi dong nhip_tim.exe','> tai ky uc ........ ok','> tim thay tin hieu: \u2665'];
+  var L=['>  nhip tim','> ky uc ........ ok','> tim thay tin hieu: \u2665'];
   function at(f,ms){T.push(setTimeout(f,ms));}
   function end(){
     if(fin)return;fin=true;T.forEach(clearTimeout);
